@@ -1,0 +1,4 @@
+.imgServiceCardIT:hover {
+    animation: scale 0.7s ease-in-out; /* Apply the scale animation on hover */
+  }
+  

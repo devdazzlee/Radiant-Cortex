@@ -1,0 +1,43 @@
+.testimonal-main-div {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #040E56;
+    background-image: url('../../Images/overlay-left.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* Keeps the background fixed on scroll */
+    overflow: hidden; /* Ensure overflow is hidden */
+  }
+  
+  .testimonal-main-part1 {
+    width: 30%;
+  }
+  
+  .testimonal-main-part2 {
+    width: 25%;
+  }
+  
+  .box-shadow-testimonal {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .testimonal-main-div{
+        padding: 10px;
+    }
+    .testimonal-main-part1 {
+      width: 90%; /* Adjust width for smaller screens */
+    }
+    
+    .testimonal-main-part2 {
+      width: 70%; /* Adjust width for smaller screens */
+    
+      margin-top: 20px; /* Add some space between parts */
+    }
+  }
+  

@@ -1,0 +1,61 @@
+@keyframes scaling {
+    0% {
+      transform: scale(1); /* Initial scale */
+      box-shadow: 0 0 0 transparent; /* Initial shadow */
+    }
+    50% {
+      transform: scale(1.1); /* Scale up halfway */
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Shadow transition */
+    }
+    100% {
+      transform: scale(1.1); /* Scale at full */
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Full shadow */
+    }
+  }
+  
+
+.head-para-main{
+    max-width:90%;
+ padding: 20px 10px 10px 10px;
+}
+.headpara-part1{
+    background-color: #497DFF;
+}
+.headpara-part2{
+    color: #040E56;
+    background-color: #56FFBD;
+}
+.headpara-part2 > h1{
+    color: #040E56;
+
+}
+.headpara-part2  > p{
+    color: #040E56;
+
+}
+.headpara-part1:hover {
+    animation: scaling 0.6s ease-in-out; /* Apply the scale animation on hover */
+
+}
+.headpara-part2:hover {
+    animation: scaling 0.6s ease-in-out; /* Apply the scale animation on hover */
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+    .head-para-main{
+        width: auto;
+    }
+
+}
+@media only screen and (max-width: 767px) {
+
+    .head-para-main{
+max-width: 100% !important;
+    }
+
+}

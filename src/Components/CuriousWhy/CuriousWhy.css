@@ -1,0 +1,63 @@
+.curios-why-main{
+    width: 100%;
+   
+}
+.curios-why-part1{
+    width: 30%;
+    position: relative;
+}
+
+.curios-why-main-card-1{
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    width: 33%;
+height: max-content;
+    text-align: center;
+    color: white;
+    background-color:  #497DFF;
+}
+
+.curios-why-main-card-2{
+    padding: 6px;
+    width: 33%;
+    height: max-content;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+    color: white;
+    background-color:  #040E56;
+}
+
+@media (max-width: 768px) {
+    .curios-why-part1{
+        width: 80%;
+    }
+    .curios-why-main-card-1{
+        display: none;
+    }
+    .curios-why-main-card-2{
+        display: none;
+    }
+
+}
+
+/* Define the scale animation */
+@keyframes scale {
+    0% {
+      transform: scale(1); /* Initial scale */
+    }
+    100% {
+      transform: scale(1.1); /* Scale on hover */
+    }
+  }
+  
+  .imgyear{
+    z-index: 100px;
+  }
+  /* Apply the animation to the image */
+  .imgyear:hover {
+    animation: scale 0.7s ease-in-out; /* Apply the scale animation on hover */
+  }
+  

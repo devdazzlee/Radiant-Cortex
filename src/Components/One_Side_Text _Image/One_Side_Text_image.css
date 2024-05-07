@@ -1,0 +1,6 @@
+.banner-mini-head{
+    color: #56FFBD;
+}
+.banner-image-ti:hover{
+    animation: scale 0.4s ease-in-out; /* Apply the scale animation on hove*/
+}

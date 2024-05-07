@@ -1,0 +1,67 @@
+.ux-main-div{
+    width: 100%
+}
+.ux-main-div1{
+    width: 40%;
+}
+.ux-main-div2{
+    width: 35%;
+}
+.ux-nested-card{
+width: 90%;
+}
+.themecolor{
+color: #040E56;
+}
+.themecolor-light{
+    color: #497DFF;
+}
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+    .ux-main-div{
+
+        padding: 10px;
+margin: auto;
+display: flex;
+/* flex-wrap: wrap; */
+
+    }
+
+    .ux-main-div1{
+        width: 40%;
+    }
+    .ux-main-div2{
+        width: 100%;
+    }
+
+  }
+
+  @media only screen and (max-width: 767px) {
+    .ux-main-div{
+
+        padding: 10px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+            }
+            .ux-nested-card-parent{
+                display: flex;
+                flex-direction: column;
+            }
+        .ux-nested-card
+        {
+            width: 100%;
+        }
+            .ux-main-div1{
+                width: 100%;
+            }
+            .ux-main-div2{
+                width: 100%;
+            }
+  }
+  
+
+
+
+  

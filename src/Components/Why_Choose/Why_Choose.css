@@ -1,0 +1,54 @@
+.wc-main-div{
+    height: max-content;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+} 
+.wc-main-div2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto; 
+}
+
+
+
+
+
+
+/* CSS for laptops and tablets */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .wc-main-div{
+        height: max-content;
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+    } 
+  }
+  
+@media only screen and (max-width: 767px) {
+    .wc-main-div{
+        padding: 10px;
+        width: 100%;
+        height: max-content;
+        display: flex;
+    flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+    } 
+    .width-control-why{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+}

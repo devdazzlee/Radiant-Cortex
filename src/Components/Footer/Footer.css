@@ -1,0 +1,7 @@
+.footer-image{
+    background-image: url('../../Images/footer-banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* Keeps the background fixed on scroll */
+    overflow: hidden; /* Ensure overflow is hidden */
+}

@@ -1,0 +1,29 @@
+.bg-img-dv-1{
+width: 100%;
+height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+background-color: #040E56;
+    background-image: url('../../Images/overlay.png') !important;
+}
+.bg-img-dv-2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../Images/overlay-left.png') !important;
+    background-color: #040E56;
+}
+.bg-img-dv-3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../Images/work-banner.jpg') !important;
+}
+@media screen and (max-width: 768px) {
+
+    .bg-img-dv-1{
+        height: 60vh;
+        background-image: none !important;
+background-color: #040E56;
+    }
+
+
+}

@@ -1,0 +1,59 @@
+.OurClient_ino_container{
+    display: flex;
+    flex-wrap: wrap;
+height: max-content;
+padding: 30px 0px;
+    background-color: #012840;
+    background-image: url('../../Images/overlay-right.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* Keeps the background fixed on scroll */
+    overflow: hidden; /* Ensure overflow is hidden */
+}
+.OurClient_innner_container{
+    width: 70%;
+    margin: auto;
+}
+.OurClient_ino_part1{
+    width: 100%;
+}
+/* For laptops and larger screens */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .OurClient_innner_container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+    .OurClient_ino_container{
+        display: flex;
+        flex-wrap: wrap;
+        height: max-content;
+    padding: 30px 0px;
+        background-color: #040E56;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .OurClient_innner_container{
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+        margin: auto;
+        padding: 0px 10px;
+    }
+    .OurClient_ino_part1{
+        width:100%;
+    }
+    .OurClient_ino_container{
+        display: flex;
+        flex-wrap: wrap;
+        height: max-content;
+    padding: 30px 0px;
+        background-color: #040E56;
+    }
+    .OurClient_ino_part2-inner{
+        display: flex;
+justify-content: center;
+    }
+  }
